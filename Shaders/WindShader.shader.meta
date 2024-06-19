@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 941de54af85eb94489bfd79ae26d0d28
+timeCreated: 1718788043
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _WindNoise: {fileID: 2800000, guid: 356d3cba67ad38245bd2a6b55b4c0456, type: 3}
+  userData: 
+  assetBundleName: chara/shaders/rswind.unity3d
+  assetBundleVariant: 

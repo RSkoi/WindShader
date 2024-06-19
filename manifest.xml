@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest schema-ver="1">
+  <guid>RSkoi.WindShader</guid>
+  <name>Wind Shader</name>
+  <version>1.0.0</version>
+  <author>RSkoi</author>
+  <description>Simple shader simulating wind noise</description>
+  <website></website>
+  <MaterialEditor>
+    <Shader Name="RSkoi/Wind" AssetBundle="chara/shaders/rswind.unity3d" Asset="asset_Wind">
+	  <Property Name="Color" Type="Color" />
+	  <Property Name="MainTex" Type="Texture" />
+      <Property Name="Cutoff" Type="Float" Range="0,1" />
+	  <Property Name="BumpMap" Type="Texture" />
+	  <Property Name="Gloss" Type="Float" Range="0,1" />
+      <Property Name="WindNoise" Type="Texture" />
+	  <Property Name="WindNoiseScaleX" Type="Float" Range="0,50" />
+	  <Property Name="WindNoiseScaleY" Type="Float" Range="0,50" />
+	  <Property Name="WindNoiseContrastX" Type="Float" Range="0,10" />
+	  <Property Name="WindNoiseContrastY" Type="Float" Range="0,10" />
+	  <Property Name="WindNoiseSpeed" Type="Float" Range="0,1" />
+	  <Property Name="WindHeight" Type="Float" Range="0,1" />
+	  <Property Name="WindIntensity" Type="Float" Range="0,100" />
+	  <Property Name="AmbientLightMulColor" Type="Color" />
+	  <Property Name="AmbientLightAddColor" Type="Color" />
+    </Shader>
+	<Shader Name="RSkoi/WindDS" AssetBundle="chara/shaders/rswind.unity3d" Asset="asset_WindDS">
+	  <Property Name="Color" Type="Color" />
+	  <Property Name="MainTex" Type="Texture" />
+      <Property Name="Cutoff" Type="Float" Range="0,1" />
+	  <Property Name="BumpMap" Type="Texture" />
+	  <Property Name="Gloss" Type="Float" Range="0,1" />
+      <Property Name="WindNoise" Type="Texture" />
+	  <Property Name="WindNoiseScaleX" Type="Float" Range="0,50" />
+	  <Property Name="WindNoiseScaleY" Type="Float" Range="0,50" />
+	  <Property Name="WindNoiseContrastX" Type="Float" Range="0,10" />
+	  <Property Name="WindNoiseContrastY" Type="Float" Range="0,10" />
+	  <Property Name="WindNoiseSpeed" Type="Float" Range="0,1" />
+	  <Property Name="WindHeight" Type="Float" Range="0,1" />
+	  <Property Name="WindIntensity" Type="Float" Range="0,100" />
+	  <Property Name="AmbientLightMulColor" Type="Color" />
+	  <Property Name="AmbientLightAddColor" Type="Color" />
+    </Shader>
+  </MaterialEditor>
+</manifest>
